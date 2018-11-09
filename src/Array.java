@@ -126,7 +126,7 @@ public class Array<E> {
 
     // 从数组中删除最后一个元素, 返回删除的元素
     public E removeLast() {
-        return remove(0);
+        return remove(size - 1);
     }
 
     // 从数组中删除元素e
